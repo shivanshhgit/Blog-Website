@@ -1,5 +1,5 @@
 import { Box, TextField, Button, styled, Typography } from "@mui/material";
-import logoPic from "../../images/logo.jpg";
+import logoPic from "../../images/logo.png";
 import { useState } from "react";
 
 const Component = styled(Box)`
@@ -12,11 +12,11 @@ const Image = styled("img")({
   width: 150,
   margin: "auto",
   display: "flex",
-  padding: "25px 0 0",
+  padding: "20px 0",
 });
 
 const Buttons = styled(Box)`
-  padding: 25px 25px;
+  padding: 20px 25px;
   display: flex;
   flex: 1;
   flex-direction: column;
